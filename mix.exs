@@ -49,8 +49,8 @@ defmodule Scenic.Driver.Local.MixProject do
   defp deps do
     [
       {:input_event, "~> 1.0 or ~> 0.4"},
-      {:scenic, "~> 0.11.0"},
-      {:elixir_make, "~> 0.6", runtime: false},
+      {:scenic, git: "git@github.com:tomazzlender/scenic.git", ref: "ef41d9f"},
+      {:elixir_make, "~> 0.7", runtime: false},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false},
       {:dialyxir, "~> 1.1", only: :dev, runtime: false}
     ]
